@@ -16,6 +16,8 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+
+  font-family: sans-serif;
 }
 
 *, *::before, *::after {
@@ -31,14 +33,34 @@ body {
   width: 100%;
 }
 
-@media only screen and (min-width: 25em) {
-
+header {
+  background-color: #e2e2e2;
 }
 
-@media only screen and (min-width: 38em) {
-
+h1 {
+  text-align: left;
 }
 
-@media only screen and (min-width: 60em) {
+ul {
+  margin: 0;
+}
 
+li {
+  list-style-type: none;
+  display: inline-block;
+  text-align: center;
+}
+
+.current-page {
+  background-color: #0074d9;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #0074d9;
+  color: #fff;
 }
